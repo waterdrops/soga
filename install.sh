@@ -196,6 +196,7 @@ install_soga() {
     echo "soga list                         - 列出已有的实例及状态"
     echo "soga new <name> [k1=v1 ...]       - 新建实例"
     echo "soga remove <name> [name...]      - 移除实例"
+    echo "soga rename <old_name> <new_name> - 重命名实例"
     echo "soga start [name]                 - 启动实例"
     echo "soga stop [name]                  - 停止实例"
     echo "soga restart [name]               - 重启实例"
